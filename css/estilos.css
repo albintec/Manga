@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px; }
+
+  /*ESTILOS HEADER*/
+header {
+ background: rgb(104,103,124);
+ background: linear-gradient(90deg, rgba(104,103,124,1) 0%, rgba(115,121,122,1) 0%, rgba(38,45,48,1) 71%);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .banner {
+    width: 500px;
+  }
+  header .contenedor_logo_menu {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top; }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color:#fff;
+        margin-left: 60px;
+        font-size: 18px; }
+  header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 200px 0; }
+    header .textos .primera_linea,
+    header .textos .segunda_linea {
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300; }
+    header .textos .primera_linea {
+      font-size: 35px;
+      list-style: 35px;
+      margin-bottom: 30px; }
+    header .textos .segunda_linea {
+      font-size: 25px;
+      list-style: 25px;
+      margin-bottom: 60px; }
+    header .textos .contenedor-btns a {
+      border-radius: 4px;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 12px 0;
+      font-weight: 600;
+      width: 235px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 10px; }
+      header .textos .contenedor-btns a:hover {
+        text-decoration: none;
+        background: #fff;
+        color: #4f4f4f; }
+
+ /*ESTILOS CARACTERISTICAS*/
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .caracteristicas .caracteristica .primera_linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 28px; }
+
+   /*ESTILOS TIPOS*/
+.main .tipos {
+  margin-bottom: 70px;
+  background: rgb(225,224,236);
+background: linear-gradient(90deg, rgba(225,224,236,1) 0%, rgba(212,227,230,1) 0%, rgba(236,249,255,1) 71%);
+}
+  .main .tipos .subtitulo{
+       color: gray;
+       font-weight: bold;
+       text-align: center;
+       margin-bottom: 20px;
+  }
+  .main .tipos .foto {
+    margin-bottom: 20px; }
+    .main .tipos .foto .thumb img {
+      border-radius: 3px;
+      width: 100%;
+      vertical-align: top; }
+    .main .tipos .foto .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300; }
+      .main .tipos .foto .titulo.azul {
+        color: #4facd3; }
+      .main .tipos .foto .titulo.naranja {
+        color: #ddb146; }
+    .main .tipos .foto .parrafo {
+      line-height: 28px; }
+    .main .tipos .foto .derecha {
+      text-align: right; }
+
+ /*ESTILOS COMPRAR*/
+.main .comprar {
+  background: url("../img/precios-bg.jpg"), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0; }
+  .main .comprar .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 70px; }
+  .main .comprar .lado {
+    background: #fff;
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    .main .comprar .lado .nombre {
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px; }
+    .main .comprar .lado .cuadro {
+      font-weight: 300;
+      font-size: 48px;
+      margin-bottom: 30px; }
+    .main .comprar .lado .caracteristicas {
+      list-style: none;
+      padding: 0 20px;
+      margin-bottom: 50px; }
+      .main .comprar .lado .caracteristicas li {
+        font-size: 18px;
+        padding: 15px 0;
+        border-bottom: 1px solid #dedede; }
+    .main .comprar .lado .btn {
+      width: 70%;
+      font-size: 16px;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px; }
+    .main .comprar .lado.verde .nombre,
+    .main .comprar .lado.verde .cuadro {
+      color: #86b773; }
+    .main .comprar .lado.verde .btn {
+      color: #86b773;
+      border: 2px solid #86b773; }
+      .main .comprar .lado.verde .btn:hover {
+        background: #86b773;
+        color: #fff; }
+    .main .comprar .lado.azul {
+      background: #4c8dce;
+      color: #fff; }
+      .main .comprar .lado.azul .btn {
+        color: #fff;
+        border: 2px solid #fff; }
+        .main .comprar .lado.azul .btn:hover {
+          background: #fff;
+          color: #4c8dce; }
+    .main .comprar .lado.naranja .nombre,
+    .main .comprar .lado.naranja .cuadro {
+      color: #ddb146; }
+    .main .comprar .lado.naranja .btn {
+      color: #ddb146;
+      border: 2px solid #ddb146; }
+      .main .comprar .lado.naranja .btn:hover {
+        background: #ddb146;
+        color: #fff; }
+
+         /*ESTILOS FOOOTER*/
+footer .contacto {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff; }
+  footer .contacto .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  footer .contacto .ubicacion,
+  footer .contacto .correo {
+    margin-bottom: 10px; }
+  footer .contacto .logo img {
+    margin-top: 70px; }
+
+footer .social {
+  text-align: center;
+  padding: 20px 0; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px; }
+    footer .social a:hover {
+      text-decoration: none; }
+    footer .social a.facebook {
+      background: #3b5998; }
+    footer .social a.twitter {
+      background: #55acee; }
+    footer .social a.youtube {
+      background: #cd201f; }
+
+      /*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .textos .primera_linea {
+      font-size: 1.5em; }
+    header .textos .segunda_linea {
+      font-size: 1.3em; }
+    header .textos .contenedor-btns a {
+      margin-bottom: 10px; }
+
+  .main .tipos .foto .titulo {
+    margin-top: 0; }
+  
+@media screen and (max-width: 768px) {
+  header .banner {
+    width: 200px;
+  }
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 40px; }
+  .main .tipos .foto {
+    text-align: center; }
+    .main .tipos .foto .texto * {
+      text-align: left; }
+    .main .tipos .foto .texto p {
+      margin-bottom: 10px; }
+  .main .comprar .cuadro {
+    margin-bottom: 20px; }
+  
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo img {
+      margin-top: 20px; } 
+    }
+  }
